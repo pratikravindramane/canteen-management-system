@@ -1,0 +1,43 @@
+.hero{
+    height: 300px;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+}
+.hero img{
+    position: absolute;
+    height: inherit;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;    
+}
+.info p{
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.info .button{
+    border: none;
+    background-color:#212529;
+    padding: .5rem;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+@media screen and (min-width:800px) {
+    .hero{
+        height: 500px;
+    }
+    .info{
+        transform: scale(1.4);
+    }
+}
+@media screen and (min-width:800px) {
+    .hero{
+        height: 600px;
+    }
+    .info{
+        transform: scale(1.5);
+    }
+}

@@ -1,0 +1,12 @@
+footer{
+    width: 100%;
+}
+footer p{
+    background-color: #212529;
+    color: white;
+    padding: .5em;
+    text-align: center;
+    font-stretch:expanded;
+    margin: 0;
+    transition: all 250ms ease-in-out;
+}

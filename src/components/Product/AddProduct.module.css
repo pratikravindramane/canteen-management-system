@@ -1,0 +1,64 @@
+.add-product{
+    display: grid;
+    place-items: center;
+    margin-bottom: 4.25em;
+    min-height: calc(100vh - 160px);
+    padding: 3rem;
+}
+.add-product h2{
+    text-align: center;
+}
+
+
+.add-product-info{
+    display: grid;
+    place-items: center;
+    border: 1px solid #212529;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 2rem;
+}
+.add-product form{
+    min-width: 200px;
+}
+
+.add-product-info input{
+    height: 2rem;
+    width: 100%;
+}
+textarea{
+    height: 5rem;
+    width: 100%;
+}
+.image{
+    display: flex;
+}
+label{
+    display: grid;
+    /* place-items: center; */
+    margin-top: 1rem;
+    text-align: left;
+}
+.add-product .btn{
+    background-color: white;
+    font-weight: bold;
+    color: #212529;
+    border: 1px solid #212529;
+    border-radius: 4px;
+    padding: .5em;
+    transition: all 250ms ease-in-out;
+    font-family: 'Dancing Script', cursive;
+    width: 100%;
+    margin-top: 1rem;
+}
+.add-product .btn:hover{
+    background-color: #212529;
+    color: white;
+    border: 1px solid #212529;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+@media screen and (min-width:800px) {
+    .add-product form{
+        width: 400px;
+    }
+}
+/* @media screen and (min-width:800px) { */

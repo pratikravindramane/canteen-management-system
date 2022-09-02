@@ -1,0 +1,51 @@
+.nav{
+    background-color: #212529;
+    color: white;
+    padding: .8rem;
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+ul{
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+h1{
+    font-size: 20px;
+    margin-top:0;
+    display: none;
+}
+li{
+    list-style: none;
+    margin-inline: .2em;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.nav a:hover,
+.nav a:active,
+.nav a.active {
+  color: #00d6d6;
+}
+@media screen and (min-width:800px) {
+    .nav{
+    display: flex;
+    justify-content: space-between;
+
+    }
+    h1{
+        font-size: 30px;
+    margin-top:0;
+    display: block;
+
+    }
+    .nav a{
+        font-size: larger;
+        margin-inline: .3rem;
+    }
+}
+
+

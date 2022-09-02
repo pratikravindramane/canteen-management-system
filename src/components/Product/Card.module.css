@@ -1,0 +1,58 @@
+.card{
+    margin: 1em;
+    width: 16em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+.card img{
+    width: 100%;
+    height: 216px;
+    background-color: #2E86C1;
+    border-radius: 10px 10px 0 0;
+}
+.card .info{
+    padding: 1rem;
+    width: 80%;
+    margin-inline: 2rem;
+}
+.card h5{
+    margin-bottom: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.card button,.link{
+    /* margin-top: 1em; */
+    padding: .5em;
+    background-color: #212529;
+    border-radius: 5px;
+    text-decoration: none;
+    color:  white;
+    font-weight: bold;
+    transition: all 250ms ease-in-out;
+    border-style: none;
+    width: 75%;
+    font-family: 'Dancing Script', cursive;
+    margin-inline: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+
+}
+.card button,.link:hover{
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.card input{
+    margin: .3rem;
+    height: 1.4rem;
+}
+.number{
+    width: 50px;
+}
+.name{
+    width: 110px;
+}
+.input-group{
+    display: flex;
+    place-items: end;
+}

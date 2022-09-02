@@ -1,0 +1,57 @@
+.sales{
+    display: grid;
+    place-items: center;
+    margin:3em 5em 3em 5em;
+}
+.sales .billing-input button{
+    background-color: white;
+    font-weight: bold;
+    color: #212529;
+    border: 1px solid #212529;
+    border-radius: 4px;
+    padding: .5em;
+    transition: all 250ms ease-in-out;
+    font-family: 'Dancing Script', cursive;
+    margin-left: 8em;
+}
+.sales .billing-input button:hover{
+    background-color: #212529;
+    color: white;
+    border: 1px solid #212529;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.table{
+    color: white;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    margin-block: 3rem;
+}
+.table tr{
+    background-color: white;
+    font-weight: bold;
+    color: #212529;
+    border: 1px solid #212529;
+    border-radius: 4px;
+    
+    padding: .5em;
+    transition: all 250ms ease-in-out;
+}
+table tr th{
+    border: 1px solid #212529;
+}
+td,th{
+    padding: .5rem;
+}
+table tr td,th{
+    border: 1px solid #212529;
+}
+ table .content tr:hover{
+    background-color: #212529;
+    color: white;
+    border: 1px solid #212529;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+table .thead:hover{
+    background-color: white;
+}
